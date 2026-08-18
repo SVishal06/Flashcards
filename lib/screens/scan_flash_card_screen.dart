@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'card_recognition_screen.dart';
+import 'post_scan_categories_screen.dart';
 
 class ScanFlashCardScreen extends StatefulWidget {
   const ScanFlashCardScreen({super.key});
@@ -40,7 +40,7 @@ class _ScanFlashCardScreenState extends State<ScanFlashCardScreen>
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (_) => const CardRecognitionScreen(),
+            builder: (_) => const PostScanCategoriesScreen(),
           ),
         );
       }

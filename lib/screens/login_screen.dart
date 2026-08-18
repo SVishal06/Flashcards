@@ -226,8 +226,8 @@ class _LoginScreenState extends State<LoginScreen>
                             child: ElevatedButton(
                               onPressed: _navigateHome,
                               style: ElevatedButton.styleFrom(
-                                backgroundColor: const Color(0xFF4CAF50),
-                                foregroundColor: Colors.white,
+                                backgroundColor: const Color(0xFFFFC107),
+                                foregroundColor: const Color(0xFF212121),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(14),
                                 ),
@@ -249,9 +249,9 @@ class _LoginScreenState extends State<LoginScreen>
                             child: OutlinedButton(
                               onPressed: _navigateHome,
                               style: OutlinedButton.styleFrom(
-                                foregroundColor: const Color(0xFF4CAF50),
+                                foregroundColor: const Color(0xFFFFC107),
                                 side: const BorderSide(
-                                  color: Color(0xFF4CAF50),
+                                  color: Color(0xFFFFC107),
                                   width: 2,
                                 ),
                                 shape: RoundedRectangleBorder(

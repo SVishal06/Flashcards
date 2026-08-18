@@ -236,8 +236,8 @@ class _CardRecognitionScreenState extends State<CardRecognitionScreen>
                             ),
                           ),
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: const Color(0xFF4CAF50),
-                            foregroundColor: Colors.white,
+                            backgroundColor: const Color(0xFFFFC107),
+                            foregroundColor: const Color(0xFF212121),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(14),
                             ),
